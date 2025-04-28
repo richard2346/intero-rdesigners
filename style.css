@@ -340,7 +340,9 @@ footer a {
     }
 
     .menu-key {
-        width: 50px;
+        border: 2px solid red;
+        width: 20%;
+        margin-right: 200px;
         color: white;
         background-color: tomato;
     }
@@ -359,7 +361,7 @@ footer a {
 
     .class-menu h2 {
         color: white;
-        width: 50px;
+        width: 100%;
     }
 
     .class-menu nav ul {
