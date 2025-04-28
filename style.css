@@ -20,7 +20,7 @@ display: flex;
  position: fixed;
  background-color: tomato;
  background: linear-gradient(to bottom);
- padding: 30px 20px;
+ padding: 20px 20px;
  width: 220px;
 height: 100vh;
 
@@ -364,7 +364,7 @@ footer a{
 
     .class-menu nav ul{
         list-style-type: none;
-        margin-bottom: 5opx;
+        margin-bottom: 50px;
     }
 
     .class-menu nav ul li{
@@ -453,9 +453,14 @@ footer a{
         
         
         .second-contianer {
+            border: 2px solid red;
             padding-left: 10px;
             padding-right: 10px;
             padding: 0px 0px;
+        }
+
+        .contain{
+            padding: 10px;
         }
         
         .tab-image {
@@ -491,6 +496,10 @@ footer a{
             margin-top: 0px;
             width: 100%;
         }
+
+        .services h4{
+            padding: 10px;
+        }
         
         
         
@@ -498,15 +507,21 @@ footer a{
             margin-top: 0px;
             width: 100%;
         }
+
+        .designers h4{
+            padding: 10px;  
+        }
         
         
         
         .section-title {
+            padding: 10px;
             font-weight: bold;
             margin-bottom: 0px;
         }
         
         .team-container {
+            padding: 10px;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
@@ -554,6 +569,10 @@ footer a{
             margin-top: 0px;
             width: 100%;
         }
+
+        .package h4{
+            padding: 10px;
+        }
         
         .contants {
             width: 100%;
@@ -566,6 +585,7 @@ footer a{
         
         
         .list {
+            padding: 10px;
             display: flex;
             /* justify-content: center; */
         }
@@ -662,6 +682,14 @@ footer a{
         .contants {
             margin-top: 100px;
         }
+
+        .contants h4{
+            padding: 10px;
+        }
+
+        .summary{
+            padding: 10px;
+        }
         
         .contact-form {
             max-width: 430px;
@@ -693,7 +721,7 @@ footer a{
         }
         
         footer{
-            width: auto;
+            width: 100%;
             text-align: right;
             padding: 30px;
             margin-top: 60px;
